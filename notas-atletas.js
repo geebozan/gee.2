@@ -28,7 +28,7 @@ for(let i = 0; i < atletas.length; i++){
   // Calcular a média de notas
   
   let notasAvaliadas = notas.sort((a, b) => b-a);
-  notasAvaliadas = notas.slice(1, 4);
+  notasAvaliadas = notasAvaliadas.slice(1, 4);
   let soma = 0;
   notasAvaliadas.forEach(function (nota){
     soma = soma + nota
